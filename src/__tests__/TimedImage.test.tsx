@@ -2,9 +2,6 @@ import { render, RenderResult } from '@testing-library/react';
 import React from 'react';
 import { TimedImage, TimedImageProps } from '../components/TimedImage';
 
-// Learn how to test React components:
-// https://testing-library.com/docs/react-testing-library/intro
-
 function renderComponent(
   props: TimedImageProps & React.ImgHTMLAttributes<HTMLImageElement>,
   children: React.ReactNode = undefined
