@@ -1,9 +1,9 @@
 {
-  "name": "@devboldly/react-library-starter",
-  "version": "1.0.0",
+  "name": "react-timed-image",
+  "version": "1.0.1",
   "author": "Dev Boldly <devboldly@gmail.com>",
-  "description": "A template to build, test, and share React components and hooks easily. Uses Storybook, Jest, and more.",
-  "homepage": "https://github.com/devboldly/react-library-starter#readme",
+  "description": "React image component that re-renders at timed intervals. Includes optional cache busting.",
+  "homepage": "https://github.com/devboldly/react-timed-image#readme",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -27,13 +27,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devboldly/react-library-starter.git"
+    "url": "git+https://github.com/devboldly/react-timed-image.git"
   },
   "bugs": {
-    "url": "https://github.com/devboldly/react-library-starter/issues"
+    "url": "https://github.com/devboldly/react-timed-image/issues"
   },
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "@devboldly/react-timed-renderer": "0.0.3",
+    "@devboldly/react-uncached-image": "0.0.1"
+  },
   "peerDependencies": {
     "react": "^16.13.0",
     "react-dom": "^16.13.0"

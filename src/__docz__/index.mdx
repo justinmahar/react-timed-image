@@ -16,45 +16,53 @@ import githubSvg from '../__docz__/images/github.svg';
 	alignItems: 'center',
 }}>
   <div>
-    <h1>React Library Starter</h1>
+    <h1>React Timed Image</h1>
   </div>
   <div>
-    <a href="https://github.com/devboldly/react-library-starter" target="_blank" rel="noopener noreferrer">
+    <a href="https://github.com/devboldly/react-timed-image/" target="_blank" rel="noopener noreferrer">
       <SvgIcon src={githubSvg} size={28} style={{ margin: '0 0 0 20px' }} />
     </a>
   </div>
 </div>
 
-**This header will contain a brief description of the project.**
+**React image component that re-renders at timed intervals. Includes optional cache busting.**
 
-👁️ **[Live Demo](/ExampleComponent#example)**
+👁️ **[Live Demo](/TimedImage#usage)**
 
 ## Overview
 
-This section will contain an overview so people can have a high-level understanding of the project.
+A TimedImage repeatedly renders an image at a timed interval. 
+
+Features optional client-side cache busting so the image reloads on every render.
 
 ### Features include:
 
-- **🚀 List your features, use fun [emojis](https://emojipedia.org/search/?q=rocket)**
-  - Give a little more info on each feature or mention benefits.
+- **⏱️ Render at timed intervals**
+  - Re-render your image at the interval you specify.
+- **🐣 New image every time using cache-busting**
+  - Uses client-side cache-busting to prevent old, cached images from being shown.
+- **🖼️ Use just like an `img`**
+  - Use all the props an `img` supports, like `src` and `alt`.
 
 ## Installation
 
 ```
-npm i @devboldly/react-library-starter
+npm i react-timed-image
 ```
 
 ## Quick Start
 
-This section will contain a copy/paste example so people can get started quickly.
-
 ```jsx
-import { ExampleComponent } from '@devboldly/react-library-starter';
+import { TimedImage } from 'react-timed-image';
 ```
 
 ```jsx
-<ExampleComponent text="Example Component"/>
+<TimedImage src="https://loremflickr.com/220/140" interval={3000} />
 ```
+
+This will render the image at the `src` provided every three seconds.
+
+See [TimedImage](/TimedImage) for additional options and a live example.
 
 ## TypeScript
 
@@ -68,6 +76,6 @@ For major changes, open an issue first to discuss what you'd like to change.
 
 See the [library template](https://tinyurl.com/ya3k258d) for npm script documentation.
 
-## ⭐ Found It Helpful? [Star It!](https://github.com/devboldly/react-library-starter/stargazers)
+## ⭐ Found It Helpful? [Star It!](https://github.com/devboldly/react-timed-image/stargazers)
 
-If you found this project helpful, let the community know by giving it a [star](https://github.com/devboldly/react-library-starter/stargazers): [👉⭐](https://github.com/devboldly/react-library-starter/stargazers)
+If you found this project helpful, let the community know by giving it a [star](https://github.com/devboldly/react-timed-image/stargazers): [👉⭐](https://github.com/devboldly/react-timed-image/stargazers)
