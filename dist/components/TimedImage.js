@@ -21,10 +21,15 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
 var react_timed_renderer_1 = require("@devboldly/react-timed-renderer");
 var react_uncached_image_1 = require("@devboldly/react-uncached-image");
-// Use http://lorempixel.com/ for demo
-var DEFAULT_INTERVAL = 5000;
+/**
+ * See documentation: https://devboldly.github.io/react-timed-image/TimedImage
+ *
+ * A TimedImage repeatedly renders an image at a timed interval.
+ *
+ * Features optional client-side cache busting so the image reloads on every render.
+ */
 function TimedImage(props) {
-    var interval = props.interval ? props.interval : DEFAULT_INTERVAL;
+    var interval = props.interval ? props.interval : 5000;
     var uncached = typeof props.uncached !== 'undefined' ? !!props.uncached : true;
     var imgProps = __assign({}, props);
     // Remove our own props
@@ -35,7 +40,7 @@ function TimedImage(props) {
                 return React.createElement(react_uncached_image_1.UncachedImage, __assign({}, imgProps, { cacheBuster: time }));
             }
             else {
-                return React.createElement("img", __assign({}, imgProps));
+                return React.createElement("img", __assign({}, imgProps, { alt: imgProps.alt }));
             }
         } }));
 }
