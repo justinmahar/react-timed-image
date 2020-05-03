@@ -35,8 +35,8 @@
   },
   "keywords": [],
   "dependencies": {
-    "@devboldly/react-timed-renderer": "0.0.3",
-    "@devboldly/react-uncached-image": "0.0.1"
+    "react-timed-renderer": "^1.0.5",
+    "react-uncached-image": "^1.0.4"
   },
   "peerDependencies": {
     "react": "^16.13.0",

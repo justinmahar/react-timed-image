@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { TimedRenderer } from '@devboldly/react-timed-renderer';
-import { UncachedImage } from '@devboldly/react-uncached-image';
+import { TimedRenderer } from 'react-timed-renderer';
+import { UncachedImage } from 'react-uncached-image';
 
 export interface TimedImageProps {
   /** Optional. The re-render interval in milliseconds. Defaults to `5000`. */
