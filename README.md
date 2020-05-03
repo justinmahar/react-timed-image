@@ -20,6 +20,8 @@
 
 Read the **[official documentation](https://devboldly.github.io/react-timed-image/)**.
 
+[![Demo](./src/__docz__/images/demo.gif "Demo")](https://devboldly.github.io/react-timed-image/TimedImage#usage)
+
 👁️ **[Live Demo](https://devboldly.github.io/react-timed-image/TimedImage#usage)**
 
 ## Overview
