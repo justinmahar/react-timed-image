@@ -19,10 +19,10 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __importStar(require("react"));
-var react_timed_renderer_1 = require("@devboldly/react-timed-renderer");
-var react_uncached_image_1 = require("@devboldly/react-uncached-image");
+var react_timed_renderer_1 = require("react-timed-renderer");
+var react_uncached_image_1 = require("react-uncached-image");
 /**
- * See documentation: https://devboldly.github.io/react-timed-image/TimedImage
+ * See documentation: [TimedImage](https://devboldly.github.io/react-timed-image/TimedImage)
  *
  * A TimedImage repeatedly renders an image at a timed interval.
  *

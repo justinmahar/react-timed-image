@@ -6,7 +6,7 @@ export interface TimedImageProps {
     uncached?: boolean;
 }
 /**
- * See documentation: https://devboldly.github.io/react-timed-image/TimedImage
+ * See documentation: [TimedImage](https://devboldly.github.io/react-timed-image/TimedImage)
  *
  * A TimedImage repeatedly renders an image at a timed interval.
  *
