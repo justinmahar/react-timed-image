@@ -1,6 +1,6 @@
 {
   "name": "react-timed-image",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "DevBoldly <devboldly@gmail.com>",
   "description": "React image component that re-renders at timed intervals. Includes optional cache busting.",
   "homepage": "https://github.com/devboldly/react-timed-image#readme",
