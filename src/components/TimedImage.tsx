@@ -10,7 +10,7 @@ export interface TimedImageProps {
 }
 
 /**
- * See documentation: https://devboldly.github.io/react-timed-image/TimedImage
+ * See documentation: [TimedImage](https://devboldly.github.io/react-timed-image/TimedImage)
  *
  * A TimedImage repeatedly renders an image at a timed interval.
  *
