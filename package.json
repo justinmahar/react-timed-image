@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "author": "DevBoldly <devboldly@gmail.com>",
   "description": "React image component that re-renders at timed intervals. Includes optional cache busting.",
-  "homepage": "https://github.com/devboldly/react-timed-image#readme",
+  "homepage": "https://devboldly.github.io/react-timed-image/",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
