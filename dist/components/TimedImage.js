@@ -37,7 +37,7 @@ function TimedImage(props) {
     delete imgProps.uncached;
     return (React.createElement(react_timed_renderer_1.TimedRenderer, { interval: interval, render: function (time) {
             if (uncached) {
-                return React.createElement(react_uncached_image_1.UncachedImage, __assign({}, imgProps, { cacheBuster: time }));
+                return React.createElement(react_uncached_image_1.UncachedImage, __assign({}, imgProps));
             }
             else {
                 return React.createElement("img", __assign({}, imgProps, { alt: imgProps.alt }));
