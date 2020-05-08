@@ -30,7 +30,7 @@ export function TimedImage(props: TimedImageProps & React.ImgHTMLAttributes<HTML
       interval={interval}
       render={(time: number) => {
         if (uncached) {
-          return <UncachedImage {...imgProps} cacheBuster={time} />;
+          return <UncachedImage {...imgProps} />;
         } else {
           return <img {...imgProps} alt={imgProps.alt} />;
         }
