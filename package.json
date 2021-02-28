@@ -1,9 +1,9 @@
 {
   "name": "react-timed-image",
   "version": "1.0.6",
-  "author": "DevBoldly <devboldly@gmail.com>",
+  "author": "Justin Mahar <contact@justinmahar.com>",
   "description": "React image component that re-renders at timed intervals. Includes optional cache busting.",
-  "homepage": "https://devboldly.github.io/react-timed-image/",
+  "homepage": "https://justinmahar.github.io/react-timed-image/",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -28,10 +28,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devboldly/react-timed-image.git"
+    "url": "git+https://github.com/justinmahar/react-timed-image.git"
   },
   "bugs": {
-    "url": "https://github.com/devboldly/react-timed-image/issues"
+    "url": "https://github.com/justinmahar/react-timed-image/issues"
   },
   "keywords": [],
   "dependencies": {

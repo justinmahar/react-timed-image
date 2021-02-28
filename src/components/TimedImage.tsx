@@ -1,6 +1,6 @@
-import * as React from 'react';
-import { TimedRenderer } from 'react-timed-renderer';
-import { UncachedImage } from 'react-uncached-image';
+import * as React from "react";
+import { TimedRenderer } from "react-timed-renderer";
+import { UncachedImage } from "react-uncached-image";
 
 export interface TimedImageProps {
   /** Optional. The re-render interval in milliseconds. Defaults to `5000`. */
@@ -10,15 +10,18 @@ export interface TimedImageProps {
 }
 
 /**
- * See documentation: [TimedImage](https://devboldly.github.io/react-timed-image/TimedImage)
+ * See documentation: [TimedImage](https://justinmahar.github.io/react-timed-image/TimedImage)
  *
  * A TimedImage repeatedly renders an image at a timed interval.
  *
  * Features optional client-side cache busting so the image reloads on every render.
  */
-export function TimedImage(props: TimedImageProps & React.ImgHTMLAttributes<HTMLImageElement>): JSX.Element {
+export function TimedImage(
+  props: TimedImageProps & React.ImgHTMLAttributes<HTMLImageElement>
+): JSX.Element {
   const interval: number | undefined = props.interval ? props.interval : 5000;
-  const uncached: boolean = typeof props.uncached !== 'undefined' ? !!props.uncached : true;
+  const uncached: boolean =
+    typeof props.uncached !== "undefined" ? !!props.uncached : true;
 
   const imgProps = { ...props };
   // Remove our own props

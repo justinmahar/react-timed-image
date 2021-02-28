@@ -1,5 +1,5 @@
 <h2 align="center">
-  <a href="https://github.com/devboldly/react-timed-image">React Timed Image</a>
+  <a href="https://github.com/justinmahar/react-timed-image">React Timed Image</a>
 </h2>
 <h3 align="center">
   React image component that re-renders at timed intervals. Includes optional cache busting.
@@ -8,25 +8,25 @@
   <a href="https://badge.fury.io/js/react-timed-image">
     <img src="https://badge.fury.io/js/react-timed-image.svg" alt="npm Version"/>
   </a>
-  <a href="https://github.com/devboldly/react-timed-image/actions?query=workflow%3ATests">
-    <img src="https://github.com/devboldly/react-timed-image/workflows/Tests/badge.svg" alt="Tests Status"/>
+  <a href="https://github.com/justinmahar/react-timed-image/actions?query=workflow%3ATests">
+    <img src="https://github.com/justinmahar/react-timed-image/workflows/Tests/badge.svg" alt="Tests Status"/>
   </a>
-  <a href="https://github.com/devboldly/react-timed-image/actions?query=workflow%3ADeploy">
-    <img src="https://github.com/devboldly/react-timed-image/workflows/Deploy/badge.svg" alt="Deploy Status"/>
+  <a href="https://github.com/justinmahar/react-timed-image/actions?query=workflow%3ADeploy">
+    <img src="https://github.com/justinmahar/react-timed-image/workflows/Deploy/badge.svg" alt="Deploy Status"/>
   </a>
 </p>
 
 ## Documentation
 
-Read the **[official documentation](https://devboldly.github.io/react-timed-image/)**.
+Read the **[official documentation](https://justinmahar.github.io/react-timed-image/)**.
 
-[![Demo](./src/__docz__/images/demo.gif "Demo")](https://devboldly.github.io/react-timed-image/TimedImage#usage)
+[![Demo](./src/__docz__/images/demo.gif "Demo")](https://justinmahar.github.io/react-timed-image/TimedImage#usage)
 
-👁️ **[Live Demo](https://devboldly.github.io/react-timed-image/TimedImage#usage)**
+👁️ **[Live Demo](https://justinmahar.github.io/react-timed-image/TimedImage#usage)**
 
 ## Overview
 
-A TimedImage repeatedly renders an image at a timed interval. 
+A TimedImage repeatedly renders an image at a timed interval.
 
 Features optional client-side cache busting so the image reloads on every render.
 
@@ -48,7 +48,7 @@ npm i react-timed-image
 ## Quick Start
 
 ```jsx
-import { TimedImage } from 'react-timed-image';
+import { TimedImage } from "react-timed-image";
 ```
 
 ```jsx
@@ -57,7 +57,7 @@ import { TimedImage } from 'react-timed-image';
 
 This will render the image at the `src` provided every three seconds.
 
-See [TimedImage](https://devboldly.github.io/react-timed-image/TimedImage) for additional options and a live example.
+See [TimedImage](https://justinmahar.github.io/react-timed-image/TimedImage) for additional options and a live example.
 
 ## Logo Attribution
 
@@ -73,14 +73,14 @@ For major changes, open an issue first to discuss what you'd like to change.
 
 See [Kindling](https://tinyurl.com/kindlingscripts) for npm script documentation.
 
-## ⭐ Found It Helpful? [Star It!](https://github.com/devboldly/react-timed-image/stargazers)
+## ⭐ Found It Helpful? [Star It!](https://github.com/justinmahar/react-timed-image/stargazers)
 
-If you found this project helpful, let the community know by giving it a [star](https://github.com/devboldly/react-timed-image/stargazers): [👉⭐](https://github.com/devboldly/react-timed-image/stargazers)
+If you found this project helpful, let the community know by giving it a [star](https://github.com/justinmahar/react-timed-image/stargazers): [👉⭐](https://github.com/justinmahar/react-timed-image/stargazers)
 
 ## MIT License
 
 ```
-Copyright © 2020 DevBoldly https://devboldly.com
+Copyright © 2020 Justin Mahar https://github.com/justinmahar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -3,41 +3,43 @@ name: TimedImage
 route: /TimedImage
 ---
 
-import { Playground, Props } from 'docz';
-import { TimedImage } from './TimedImage';
+import { Playground, Props } from "docz";
+import { TimedImage } from "./TimedImage";
 
 <h1>TimedImage</h1>
 
 ## Description
 
-A TimedImage repeatedly renders an image at a timed interval. 
+A TimedImage repeatedly renders an image at a timed interval.
 
 Features optional client-side cache busting so the image reloads on every render.
 
 ## Usage
 
 ```jsx
-import { TimedImage } from 'react-timed-image';
+import { TimedImage } from "react-timed-image";
 ```
 
 <Playground>
   <TimedImage src="https://loremflickr.com/220/140" interval={3000} />
 </Playground>
-
-<small>Note: You can edit the source above. Your changes will be rendered immediately.</small>
-
-<br/><br/>
+<small>
+  Note: You can edit the source above. Your changes will be rendered
+  immediately.
+</small>
+<br />
+<br />
 
 The TimedImage above uses [loremflickr.com](https://loremflickr.com/), which returns a different image on every request.
 
-By default, client-side cache-busting is enabled via [react-uncached-image](https://devboldly.github.io/react-uncached-image/), 
+By default, client-side cache-busting is enabled via [react-uncached-image](https://justinmahar.github.io/react-uncached-image/),
 so the image will be downloaded from the server on every render. You can disable this functionality with the prop `uncached={false}`.
 
 ## Props
 
-| Prop | Type | Description |
-|------|------|-------------|
-| interval | `number` &#124; `undefined` | Optional. The re-render interval in milliseconds. Defaults to `5000`. |
+| Prop     | Type                         | Description                                                                                                                                                                                                                                                                                       |
+| -------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| interval | `number` &#124; `undefined`  | Optional. The re-render interval in milliseconds. Defaults to `5000`.                                                                                                                                                                                                                             |
 | uncached | `boolean` &#124; `undefined` | Optional. When `true`, the `src` attribute will have a cache-busting query param attached, causing the browser to download the image on every render. When `false`, the `src` will not have a cache-busting query param attached and the browser cache may be used for the image. Default `true`. |
 
 This component supports **all `img` props**, such as `alt`, `className`, `style`, and `onClick`. It renders as an `img` element.
@@ -47,7 +49,10 @@ This component supports **all `img` props**, such as `alt`, `className`, `style`
 The following renders a build status badge every 3 seconds, showing the build status in real-time:
 
 <Playground>
-  <TimedImage src="https://github.com/devboldly/react-timed-image/workflows/Deploy/badge.svg" interval={3000} />
+  <TimedImage
+    src="https://github.com/justinmahar/react-timed-image/workflows/Deploy/badge.svg"
+    interval={3000}
+  />
 </Playground>
 
-> Note: This example has since been turned into a Markdown enabled component, [BuildStatusBadge](https://devboldly.github.io/react-build-status-badge/).
+> Note: This example has since been turned into a Markdown enabled component, [BuildStatusBadge](https://justinmahar.github.io/react-build-status-badge/).
