@@ -4,7 +4,7 @@ import { TimedImage, TimedImageProps } from '../components/TimedImage';
 
 function renderComponent(
   props: TimedImageProps & React.ImgHTMLAttributes<HTMLImageElement>,
-  children: React.ReactNode = undefined
+  children: React.ReactNode = undefined,
 ): RenderResult {
   return render(<TimedImage {...props}>{children}</TimedImage>);
 }
