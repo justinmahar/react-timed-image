@@ -1,6 +1,6 @@
 {
   "name": "react-timed-image",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Justin Mahar <contact@justinmahar.com>",
   "description": "React image component that re-renders at timed intervals. Includes optional cache busting.",
   "homepage": "https://justinmahar.github.io/react-timed-image/",
