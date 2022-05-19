@@ -40,8 +40,8 @@
     "react-uncached-image": "^1.0.7"
   },
   "peerDependencies": {
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react": ">=16",
+    "react-dom": ">=16"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
