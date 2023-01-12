@@ -1,17 +1,20 @@
+/*
+ * More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
+ * More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
+ * More on args: https://storybook.js.org/docs/react/writing-stories/args
+ * More on argTypes: https://storybook.js.org/docs/react/api/argtypes
+ */
 import React from 'react';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
+
 import { TimedImage } from '../components/TimedImage';
 
-// A Storybook is a collection of stories. Each story represents a single visual state of a component.
-// Technically, a story is a function that returns something that can be rendered to screen.
-
-// The default export defines metadata that applies to the group.
 export default {
-  title: 'TimedImage',
+  title: 'Stories/TimedImage',
   component: TimedImage,
-};
+} as ComponentMeta<typeof TimedImage>;
 
-// The named exports define the stories
-export const TimedImageStory = () => {
+const Template: ComponentStory<typeof TimedImage> = (args) => {
   const src = 'https://loremflickr.com/220/140';
   return (
     <>
@@ -30,6 +33,9 @@ export const TimedImageStory = () => {
     </>
   );
 };
+
+export const TimedImageStory = Template.bind({});
+TimedImageStory.args = {};
 TimedImageStory.story = {
-  name: 'TimedImage',
+  name: 'Cached and Uncached',
 };

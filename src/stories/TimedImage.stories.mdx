@@ -1,10 +1,7 @@
----
-name: TimedImage
-route: /TimedImage
----
+import { Meta } from '@storybook/addon-docs';
+import { TimedImage } from '../components/TimedImage';
 
-import { Playground, Props } from "docz";
-import { TimedImage } from "./TimedImage";
+<Meta title="Components/TimedImage" />
 
 <h1>TimedImage</h1>
 
@@ -17,20 +14,14 @@ Features optional client-side cache busting so the image reloads on every render
 ## Usage
 
 ```jsx
-import { TimedImage } from "react-timed-image";
+import { TimedImage } from 'react-timed-image';
 ```
 
-<Playground>
-  <TimedImage src="https://loremflickr.com/220/140" interval={3000} />
-</Playground>
+```jsx
+<TimedImage src="https://loremflickr.com/220/140" interval={3000} />
+```
 
-<small>
-  Note: You can edit the source above. Your changes will be rendered
-  immediately.
-</small>
-
-<br />
-<br />
+<TimedImage src="https://loremflickr.com/220/140" interval={3000} />
 
 The TimedImage above uses [loremflickr.com](https://loremflickr.com/), which returns a different image on every request.
 
@@ -48,13 +39,12 @@ This component supports **all `img` props**, such as `alt`, `className`, `style`
 
 ## Example
 
-The following renders a build status badge every 3 seconds, showing the build status in real-time:
+The following renders a build status badge every 5 seconds, showing the build status in real-time:
 
-<Playground>
-  <TimedImage
-    src="https://github.com/justinmahar/react-timed-image/workflows/Deploy/badge.svg"
-    interval={3000}
-  />
-</Playground>
+<TimedImage src="https://github.com/justinmahar/react-timed-image/workflows/Deploy/badge.svg" interval={5000} />
+
+```jsx
+<TimedImage src="https://github.com/justinmahar/react-timed-image/workflows/Deploy/badge.svg" interval={5000} />
+```
 
 > Note: This example has since been turned into a Markdown enabled component, [BuildStatusBadge](https://justinmahar.github.io/react-build-status-badge/).

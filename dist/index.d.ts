@@ -1,1 +1,1 @@
-export * from './components/TimedImage';
+export * from './components/Example';
