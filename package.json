@@ -1,7 +1,7 @@
 {
   "name": "react-timed-image",
   "version": "1.2.3",
-  "coreVersion": "3.0.7",
+  "coreVersion": "3.0.9",
   "author": "Justin Mahar <contact@justinmahar.com>",
   "description": "React image component that re-renders at timed intervals. Includes optional cache busting.",
   "homepage": "https://justinmahar.github.io/react-timed-image/",
@@ -63,7 +63,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-storybook": "^0.6.15",
-    "lockblocks": "^1.1.4",
+    "lockblocks": "^1.1.8",
     "prettier": "^3.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
