@@ -19,9 +19,9 @@
 
 Read the **[official documentation](https://justinmahar.github.io/react-timed-image/)**.
 
-[![Demo](https://justinmahar.github.io/react-timed-image/demo.gif "Demo")](https://justinmahar.github.io/react-timed-image/?path=/story/components-timedimage--page#usage)
+[![Demo](https://justinmahar.github.io/react-timed-image/demo.gif "Demo")](https://justinmahar.github.io/react-timed-image/?path=/story/components-timedimage--docs#usage)
 
-👁️ **[Live Demo](https://justinmahar.github.io/react-timed-image/?path=/story/components-timedimage--page#usage)**
+👁️ **[Live Demo](https://justinmahar.github.io/react-timed-image/?path=/story/components-timedimage--docs#usage)**
 
 ## Overview
 
@@ -81,7 +81,7 @@ import { TimedImage } from "react-timed-image";
 
 This will render the image at the `src` provided every three seconds.
 
-See [TimedImage](https://justinmahar.github.io/react-timed-image/?path=/story/components-timedimage--page) for additional options and a live example.
+See [TimedImage](https://justinmahar.github.io/react-timed-image/?path=/story/components-timedimage--docs) for additional options and a live example.
 
 <!-- [lock:typescript] 🚫--------------------------------------- -->
 
@@ -117,4 +117,4 @@ If you found this project helpful, let the community know by giving it a [star](
 
 ## License
 
-See [LICENSE.md](https://justinmahar.github.io/react-timed-image/?path=/story/license--page).
+See [LICENSE.md](https://justinmahar.github.io/react-timed-image/?path=/docs/license--docs).
